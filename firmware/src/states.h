@@ -10,6 +10,9 @@
 
  typedef enum state {
     STATE_DEVICE_BOOT,  /*!< device is booting */
+    STATE_WIFI_REQUEST,
+     WIFI_WAIT_CREDENTIALS,
+    STATE_WIFI_CONNECT,
     STATE_WIFI_CONNECTING, 
     STATE_WIFI_CONNECTED,
     STATE_WIFI_TIMEOUT,
